@@ -1,1 +1,22 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emotion Detection</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 18px; }
+    input { width: 100%; padding: 12px; box-sizing: border-box; }
+    button { margin-top: 12px; padding: 10px 18px; }
+    #result { margin-top: 24px; line-height: 1.5; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Emotion Detection</h1>
+  <p>Enter a sentence to analyze its emotional content.</p>
+  <input id="textToAnalyze" type="text" placeholder="Type text here">
+  <button onclick="runEmotionDetection()">Analyze</button>
+  <div id="result"></div>
+  <script src="/static/mywebscript.js"></script>
+</body>
+</html>
