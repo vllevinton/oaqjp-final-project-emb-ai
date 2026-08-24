@@ -1,0 +1,10 @@
+test_anger (test_emotion_detection.TestEmotionDetector.test_anger) ... ok
+test_disgust (test_emotion_detection.TestEmotionDetector.test_disgust) ... ok
+test_fear (test_emotion_detection.TestEmotionDetector.test_fear) ... ok
+test_joy (test_emotion_detection.TestEmotionDetector.test_joy) ... ok
+test_sadness (test_emotion_detection.TestEmotionDetector.test_sadness) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests
+
+OK

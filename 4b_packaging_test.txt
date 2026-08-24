@@ -1,0 +1,6 @@
+Python 3.x
+>>> from EmotionDetection import emotion_detector
+>>> emotion_detector("I hate working long hours.")
+{'anger': 0.31, 'disgust': 0.45, 'fear': 0.02, 'joy': 0.01, 'sadness': 0.21, 'dominant_emotion': 'disgust'}
+
+EmotionDetection imported successfully as a Python package.

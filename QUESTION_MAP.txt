@@ -1,0 +1,53 @@
+COURsera submission map — Emotion Detector
+
+IMPORTANT:
+The repository URLs below work after the files are uploaded to the main branch of:
+https://github.com/vllevinton/emotion-detection-project
+
+Q1 — URL
+https://github.com/vllevinton/emotion-detection-project/blob/main/README.md
+
+Q2 — paste text from:
+submission/2a_emotion_detection.txt
+
+Q3 — paste text from:
+submission/2b_application_creation.txt
+
+Q4 — paste text from:
+submission/3a_output_formatting.txt
+
+Q5 — paste text from:
+submission/3b_formatted_output_test.txt
+
+Q6 — URL
+https://github.com/vllevinton/emotion-detection-project/blob/main/EmotionDetection/__init__.py
+
+Q7 — paste text from:
+submission/4b_packaging_test.txt
+
+Q8 — paste text from:
+submission/5a_unit_testing.txt
+
+Q9 — paste text from:
+submission/5b_unit_testing_result.txt
+
+Q10 — paste text from:
+submission/6a_server.txt
+
+Q11 — upload:
+submission/6b_deployment_test.png
+
+Q12 — paste text from:
+submission/7a_error_handling_function.txt
+
+Q13 — paste text from:
+submission/7b_error_handling_server.txt
+
+Q14 — upload:
+submission/7c_error_handling_interface.png
+
+Q15 — paste text from:
+submission/8a_server_modified.txt
+
+Q16 — paste text from:
+submission/8b_static_code_analysis.txt
