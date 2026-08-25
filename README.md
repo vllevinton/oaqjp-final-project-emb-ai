@@ -1,6 +1,8 @@
-# Emotion Detection Project
+# Final Project
 
-Final project for the IBM/Coursera course **Developing AI Applications with Python and Flask**.
+## Emotion Detection Project
+
+Final project for the IBM/Coursera course Developing AI Applications with Python and Flask.
 
 ## Features
 
