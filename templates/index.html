@@ -13,10 +13,11 @@
 </head>
 <body>
   <h1>Emotion Detection</h1>
-  <p>Enter a sentence to analyze its emotional content.</p>
-  <input id="textToAnalyze" type="text" placeholder="Type text here">
+  <p>Enter an English sentence. Text is sent to the external Watson service; use non-sensitive sample text.</p>
+  <label for="textToAnalyze">Sentence in English</label>
+  <input maxlength="5000" id="textToAnalyze" type="text" placeholder="Type text here">
   <button onclick="runEmotionDetection()">Analyze</button>
-  <div id="result"></div>
+  <div id="result" role="status" aria-live="polite"></div>
   <script src="/static/mywebscript.js"></script>
 </body>
 </html>

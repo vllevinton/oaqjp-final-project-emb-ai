@@ -1,8 +1,11 @@
 """Unit tests for the EmotionDetection package."""
 import unittest
+import os
 from EmotionDetection.emotion_detection import emotion_detector
 
 
+@unittest.skipUnless(os.environ.get("RUN_WATSON_INTEGRATION") == "1",
+                     "Requires live Watson access")
 class TestEmotionDetector(unittest.TestCase):
     """Verify the dominant emotion for the required statements."""
 

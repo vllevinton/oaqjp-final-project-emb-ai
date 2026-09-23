@@ -1,8 +1,14 @@
-# Final Project
+# Emotion Detection — Watson NLP + Flask
 
 ## Emotion Detection Project
 
 Final project for the IBM/Coursera course Developing AI Applications with Python and Flask.
+
+## Current verification status
+
+Educational IBM/Coursera project; the model is provided by Watson, not trained in this repository. The Skills Network service did not respond from the validation environment on 2026-09-23. Live inference is therefore **not currently verified**. Local tests mock the provider; the app returns HTTP 503 on service failures and HTTP 400 on invalid input.
+
+Input text is sent to the external Watson service. Use non-sensitive English sample text.
 
 ## Features
 
@@ -41,7 +47,7 @@ Then open `http://localhost:5000/`.
 ## Tests
 
 ```bash
-python -m unittest test_emotion_detection.py -v
+python -m unittest discover -v
 ```
 
 ## Static analysis
@@ -49,3 +55,5 @@ python -m unittest test_emotion_detection.py -v
 ```bash
 pylint server.py
 ```
+
+Live integration tests are opt-in: set `RUN_WATSON_INTEGRATION=1` before running the test suite. Five live tests are skipped by default. Mocked unit tests do not establish that the external service is available.
